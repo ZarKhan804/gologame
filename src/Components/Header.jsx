@@ -36,14 +36,14 @@ function Header() {
             <img
               src={gameImage}
               alt="Luckywheel777 Logo"
-              className="block h-full w-full "
+              className="block h-full w-full"
             />
           </div>
 
           <div className="min-w-0">
-            <h1 className="whitespace-nowrap text-[20px] font-black leading-tight tracking-tight text-white sm:text-[24px]">
+            <span className="whitespace-nowrap text-[20px] font-black leading-tight tracking-tight text-white sm:text-[24px]">
               GOLO<span className="text-yellow-400"> GAME</span>
-            </h1>
+            </span>
 
             <p className="mt-1 whitespace-nowrap text-[9px] font-bold uppercase tracking-[0.18em] text-gray-400 sm:text-[10px]">
               Download Game
@@ -53,7 +53,7 @@ function Header() {
 
         {/* DESKTOP NAVIGATION */}
         <nav className="hidden items-center justify-center gap-8 lg:flex">
-          <NavLink to="/" className={navClass}>
+          <NavLink to="/" end className={navClass}>
             Home
           </NavLink>
 
@@ -88,7 +88,7 @@ function Header() {
           <button
             type="button"
             onClick={() => setOpen((prev) => !prev)}
-            aria-label="Open navigation menu"
+            aria-label={open ? "Close navigation menu" : "Open navigation menu"}
             className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-gray-200 transition hover:bg-white/10 lg:hidden"
           >
             {open ? (
@@ -108,6 +108,7 @@ function Header() {
 
             <NavLink
               to="/"
+              end
               onClick={closeMenu}
               className={({ isActive }) =>
                 `border-b border-white/10 py-4 text-[15px] font-semibold ${
