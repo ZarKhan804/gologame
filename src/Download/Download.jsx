@@ -1,19 +1,18 @@
 
 import { Helmet } from "react-helmet-async";
-import ContactHero from "./ContactHero";
-import ContactForm from "./ContactForm";
+import DownloadHero from "./DownloadHero";
 import InternalLinksArticle from "./InternalLinksArticle";
 import Article from "./Article";
 
-function Contact() {
+function Download() {
   return (
     <>
       <Helmet>
-        <title>Contact Golo Game | Support & Assistance</title>
+        <title>Golo Game Download Guide | Mobile Access Information</title>
 
         <meta
           name="description"
-          content="Contact Golo Game for general questions, feedback, website information, account guidance, and assistance with gaming-related queries."
+          content="Explore the Golo Game download and mobile access guide, compatible device information, application safety, account guidance, and general gaming resources."
         />
 
         <meta
@@ -23,30 +22,29 @@ function Contact() {
 
         <link
           rel="canonical"
-          href="https://goloogames.com/contact"
+          href="https://goloogames.com/download"
         />
 
         <meta
           property="og:title"
-          content="Contact Golo Game | Support & Assistance"
+          content="Golo Game Download Guide | Mobile Access Information"
         />
 
         <meta
           property="og:description"
-          content="Find Golo Game contact information, website guidance, account security tips, and answers to general gaming-related questions."
+          content="Learn about Golo Game mobile access, application information, device compatibility, account guidance, and general gaming resources."
         />
 
         <meta
           property="og:url"
-          content="https://goloogames.com/contact"
+          content="https://goloogames.com/download"
         />
 
         <meta property="og:type" content="website" />
       </Helmet>
 
       <main>
-        <ContactHero />
-        <ContactForm />
+        <DownloadHero />
         <InternalLinksArticle />
         <Article />
       </main>
@@ -54,5 +52,5 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Download;
 
