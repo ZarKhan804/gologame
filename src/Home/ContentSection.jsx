@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const ContentSection = () => {
@@ -83,4 +82,3 @@ const ContentSection = () => {
 };
 
 export default ContentSection;
-

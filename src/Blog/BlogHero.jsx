@@ -1,4 +1,3 @@
-
 function BlogHero() {
   return (
     <section
@@ -36,16 +35,16 @@ function BlogHero() {
 
           {/* Introduction */}
           <p className="mx-auto mt-5 max-w-3xl text-sm leading-7 text-gray-600 sm:text-base lg:text-lg">
-            Explore Golo Game guides, gameplay information, mobile
-            access tips, account security guidance, platform features,
-            and responsible gaming resources.
+            Explore Golo Game guides, gameplay information, mobile access tips,
+            account security guidance, platform features, and responsible
+            gaming resources.
           </p>
 
           <p className="mx-auto mt-4 max-w-3xl text-sm leading-7 text-gray-600">
             Learn about game mechanics, platform navigation, mobile
             compatibility, and account safety before using gaming-related
-            services. Game outcomes can be uncertain, and winnings are
-            never guaranteed.
+            services. Game outcomes can be uncertain, and winnings are never
+            guaranteed.
           </p>
         </div>
 
@@ -57,8 +56,8 @@ function BlogHero() {
             </h2>
 
             <p className="mt-2 text-sm leading-6 text-gray-600">
-              Learn about Golo Game gameplay, general game rules,
-              game mechanics, and platform navigation.
+              Learn about Golo Game gameplay, general game rules, game
+              mechanics, and platform navigation.
             </p>
           </article>
 
@@ -79,8 +78,8 @@ function BlogHero() {
             </h2>
 
             <p className="mt-2 text-sm leading-6 text-gray-600">
-              Find information about account safety, platform features,
-              access requirements, and responsible gaming practices.
+              Find information about account safety, platform features, access
+              requirements, and responsible gaming practices.
             </p>
           </article>
         </div>
@@ -96,4 +95,3 @@ function BlogHero() {
 }
 
 export default BlogHero;
-

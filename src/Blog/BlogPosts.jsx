@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function BlogPosts() {
   return (
@@ -41,8 +42,8 @@ function BlogPosts() {
 
             <p className="mx-auto mt-5 max-w-3xl text-sm leading-7 text-gray-500 sm:text-base">
               Explore <strong>Golo Game guides</strong>, general gameplay
-              information, mobile access, account security, platform
-              features, and responsible gaming practices through this{" "}
+              information, mobile access, account security, platform features,
+              and responsible gaming practices through this{" "}
               <strong>Golo Game Pakistan Guide</strong>.
             </p>
           </header>
@@ -57,11 +58,10 @@ function BlogPosts() {
 
               <p>
                 Visitors researching the <strong>Golo Game Platform</strong>{" "}
-                can explore general information about online gaming,
-                gameplay concepts, mobile access, and platform resources.
-                This guide explains common gaming topics and encourages
-                visitors to review the rules and conditions of any service
-                before using it.
+                can explore general information about online gaming, gameplay
+                concepts, mobile access, and platform resources. This guide
+                explains common gaming topics and encourages visitors to
+                review the rules and conditions of any service before using it.
               </p>
             </section>
 
@@ -74,8 +74,8 @@ function BlogPosts() {
               <p>
                 Game mechanics vary depending on the game and service.
                 Visitors should read the instructions, understand the rules,
-                and review any risks before participating. Outcomes may
-                be uncertain, and no tip, trick, or strategy can guarantee
+                and review any risks before participating. Outcomes may be
+                uncertain, and no tip, trick, or strategy can guarantee
                 winnings.
               </p>
             </section>
@@ -87,13 +87,12 @@ function BlogPosts() {
               </h3>
 
               <p>
-                Mobile access is an important consideration for visitors
-                who use smartphones and tablets. Anyone researching a{" "}
+                Mobile access is an important consideration for visitors who
+                use smartphones and tablets. Anyone researching a{" "}
                 <strong>Golo Game app</strong> should verify whether an
-                official application is available and check its source
-                before downloading or installing it. Review device
-                compatibility, requested permissions, and relevant
-                privacy information.
+                official application is available and check its source before
+                downloading or installing it. Review device compatibility,
+                requested permissions, and relevant privacy information.
               </p>
             </section>
 
@@ -104,13 +103,13 @@ function BlogPosts() {
               </h3>
 
               <p>
-                Account security matters when using any online service.
-                Keep login credentials private, use strong passwords,
-                and avoid suspicious links or messages. Visitors following{" "}
+                Account security matters when using any online service. Keep
+                login credentials private, use strong passwords, and avoid
+                suspicious links or messages. Visitors following{" "}
                 <strong>Golo Game updates</strong> should verify important
                 information through trustworthy sources. Never share
-                verification codes or sensitive account information
-                with unknown people.
+                verification codes or sensitive account information with
+                unknown people.
               </p>
             </section>
 
@@ -123,10 +122,9 @@ function BlogPosts() {
               <p>
                 Platform features and access requirements vary between
                 services. Visitors can review available game information,
-                account options, mobile functionality, and applicable
-                terms. Before using any gaming feature, read the rules
-                carefully and make sure you understand the relevant
-                conditions.
+                account options, mobile functionality, and applicable terms.
+                Before using any gaming feature, read the rules carefully and
+                make sure you understand the relevant conditions.
               </p>
             </section>
 
@@ -137,12 +135,11 @@ function BlogPosts() {
               </h3>
 
               <p>
-                Some online gaming services may advertise promotional
-                offers. Where an offer is available, it may have
-                eligibility rules, wagering requirements, expiry dates,
-                or withdrawal restrictions. Read the complete terms and
-                conditions rather than assuming a promotion guarantees
-                a financial benefit.
+                Some online gaming services may advertise promotional offers.
+                Where an offer is available, it may have eligibility rules,
+                wagering requirements, expiry dates, or withdrawal
+                restrictions. Read the complete terms and conditions rather
+                than assuming a promotion guarantees a financial benefit.
               </p>
             </section>
 
@@ -153,11 +150,11 @@ function BlogPosts() {
               </h3>
 
               <p>
-                Gaming should not be treated as a reliable way to earn
-                money. Set personal limits, avoid chasing losses, and
-                stop if gaming becomes stressful or affects essential
-                expenses. Only use gaming services where legally
-                permitted, and remember that financial losses are possible.
+                Gaming should not be treated as a reliable way to earn money.
+                Set personal limits, avoid chasing losses, and stop if gaming
+                becomes stressful or affects essential expenses. Only use
+                gaming services where legally permitted, and remember that
+                financial losses are possible.
               </p>
             </section>
 
@@ -169,11 +166,10 @@ function BlogPosts() {
 
               <p>
                 Visitors can use this blog to explore relevant{" "}
-                <strong>Golo Game news</strong>, gameplay explanations,
-                and general platform information. Claims about new
-                features, application releases, or service changes
-                should be checked against reliable, current sources
-                before being relied upon.
+                <strong>Golo Game news</strong>, gameplay explanations, and
+                general platform information. Claims about new features,
+                application releases, or service changes should be checked
+                against reliable, current sources before being relied upon.
               </p>
             </section>
 
@@ -184,15 +180,51 @@ function BlogPosts() {
               </h3>
 
               <p>
-                Visitors researching Golo Game can begin by reviewing
-                gameplay information, mobile access guidance, account
-                security, and responsible gaming resources. This{" "}
-                <strong>Golo Game Blog</strong> brings together
-                educational content to help readers understand common
-                gaming concepts. Always check applicable conditions
-                and local legal requirements before accessing a
-                gaming service.
+                Visitors researching Golo Game can begin by reviewing gameplay
+                information, mobile access guidance, account security, and
+                responsible gaming resources. This{" "}
+                <strong>Golo Game Blog</strong> brings together educational
+                content to help readers understand common gaming concepts.
+                Always check applicable conditions and local legal
+                requirements before accessing a gaming service.
               </p>
+            </section>
+
+            {/* Internal Links */}
+            <section className="border-t border-gray-200 pt-7">
+              <h3 className="text-xl font-extrabold text-gray-900 sm:text-2xl">
+                Explore More Golo Game Pages
+              </h3>
+
+              <div className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
+                <Link
+                  to="/"
+                  className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+                >
+                  Golo Game Home
+                </Link>
+
+                <Link
+                  to="/about"
+                  className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+                >
+                  About Golo Game
+                </Link>
+
+                <Link
+                  to="/download"
+                  className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+                >
+                  Golo Game Download Guide
+                </Link>
+
+                <Link
+                  to="/contact"
+                  className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+                >
+                  Contact Golo Game
+                </Link>
+              </div>
             </section>
           </div>
         </article>
@@ -202,4 +234,3 @@ function BlogPosts() {
 }
 
 export default BlogPosts;
-

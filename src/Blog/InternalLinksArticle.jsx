@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 function InternalLinksArticle() {
@@ -18,11 +17,11 @@ function InternalLinksArticle() {
 
           <div className="mt-5 space-y-5 text-base leading-8 text-gray-600">
             <p>
-              The <strong>Golo Game Blog</strong> provides information
-              and guides covering gameplay concepts, platform features,
-              mobile access, account security, and responsible gaming.
-              Visitors can explore these resources to better understand
-              common gaming topics and relevant platform conditions.
+              The <strong>Golo Game Blog</strong> provides information and
+              guides covering gameplay concepts, platform features, mobile
+              access, account security, and responsible gaming. Visitors can
+              explore these resources to better understand common gaming topics
+              and relevant platform conditions.
             </p>
 
             <p>
@@ -38,8 +37,7 @@ function InternalLinksArticle() {
             </p>
 
             <p>
-              To learn more about the website and its purpose, visit
-              the{" "}
+              To learn more about the website and its purpose, visit the{" "}
               <Link
                 to="/about"
                 className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
@@ -50,40 +48,53 @@ function InternalLinksArticle() {
               general guidance about account registration where applicable.
             </p>
 
+            <p>
+              Visitors looking for mobile or application access information
+              can review the{" "}
+              <Link
+                to="/download"
+                className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+              >
+                Golo Game Download Guide
+              </Link>{" "}
+              for general information about mobile access, application
+              installation, device compatibility, and basic safety practices.
+            </p>
+
             <h3 className="text-xl font-extrabold text-gray-900 sm:text-2xl">
               Gaming Information and Guides
             </h3>
 
             <p>
-              The blog covers general gameplay information, mobile
-              access, platform features, account security, and
-              responsible gaming. Visitors can also explore information
-              about the <strong>Golo Game Platform</strong> and common
-              online game mechanics. Review the applicable rules and
-              conditions before using any gaming-related service.
+              The blog covers general gameplay information, mobile access,
+              platform features, account security, and responsible gaming.
+              Visitors can also explore information about the{" "}
+              <strong>Golo Game Platform</strong> and common online game
+              mechanics. Review the applicable rules and conditions before
+              using any gaming-related service.
             </p>
 
             <p>
-              Visitors looking for mobile or application access
-              information should verify the availability and
-              authenticity of any application before installing it.
-              Check the relevant provider's official information,
-              device compatibility, and requested permissions.
+              Visitors looking for mobile or application access information
+              should verify the availability and authenticity of any
+              application before installing it. Check the relevant provider's
+              official information, device compatibility, and requested
+              permissions.
             </p>
 
             <p>
-              Visitors researching payment-related topics should review
-              the payment methods, deposit requirements, withdrawal
-              conditions, and fees published by the relevant service.
-              Do not assume a particular payment method is supported
-              unless it has been verified.
+              Visitors researching payment-related topics should review the
+              payment methods, deposit requirements, withdrawal conditions,
+              and fees published by the relevant service. Do not assume a
+              particular payment method is supported unless it has been
+              verified.
             </p>
 
             <p>
-              Before sharing personal or financial information, check
-              that the service is trustworthy and that its account and
-              payment policies are clear. Keep passwords and verification
-              codes private, and avoid unverified links or applications.
+              Before sharing personal or financial information, check that the
+              service is trustworthy and that its account and payment policies
+              are clear. Keep passwords and verification codes private, and
+              avoid unverified links or applications.
             </p>
 
             <h3 className="text-xl font-extrabold text-gray-900 sm:text-2xl">
@@ -91,8 +102,7 @@ function InternalLinksArticle() {
             </h3>
 
             <p>
-              If you have questions, feedback, or general enquiries,
-              visit the{" "}
+              If you have questions, feedback, or general enquiries, visit the{" "}
               <Link
                 to="/contact"
                 className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
@@ -103,13 +113,12 @@ function InternalLinksArticle() {
             </p>
 
             <p>
-              These internal links connect the Home, About, Blog, and
-              Contact sections of <strong>goloogames.com</strong>,
-              helping visitors find related Golo Game information
-              and platform guides.
+              These internal links connect the Home, About, Blog, Download, and
+              Contact sections of <strong>goloogames.com</strong>, helping
+              visitors find related Golo Game information and platform guides.
             </p>
 
-            {/* 14 RELATED BLOG ARTICLE TOPICS */}
+            {/* RELATED BLOG ARTICLE TOPICS */}
             <div className="border-t border-gray-300 pt-6">
               <h3 className="text-xl font-extrabold text-gray-900 sm:text-2xl">
                 Golo Game Blog Articles
@@ -147,4 +156,3 @@ function InternalLinksArticle() {
 }
 
 export default InternalLinksArticle;
-

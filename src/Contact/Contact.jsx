@@ -52,6 +52,11 @@ function Contact() {
         />
 
         <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+
+        <meta
           name="twitter:title"
           content="Contact Golo Game | Support & Assistance"
         />

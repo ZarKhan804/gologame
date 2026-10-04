@@ -1,4 +1,3 @@
-
 import {
   FaUserPlus,
   FaGamepad,
@@ -223,4 +222,3 @@ function GameSection() {
 }
 
 export default GameSection;
-

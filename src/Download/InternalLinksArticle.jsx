@@ -1,12 +1,17 @@
-
 import { Link } from "react-router-dom";
 
 function InternalLinksArticle() {
   return (
-    <section className="bg-gray-200 py-10 sm:py-14">
+    <section
+      aria-labelledby="download-related-pages"
+      className="bg-gray-200 py-10 sm:py-14"
+    >
       <div className="mx-auto max-w-5xl px-5 lg:px-8">
         <article className="rounded-2xl border border-gray-300 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
-          <h2 className="text-2xl font-extrabold leading-tight text-gray-900 sm:text-3xl">
+          <h2
+            id="download-related-pages"
+            className="text-2xl font-extrabold leading-tight text-gray-900 sm:text-3xl"
+          >
             Golo Game Mobile Access &amp; Platform Guide
           </h2>
 
@@ -116,9 +121,9 @@ function InternalLinksArticle() {
 
             <p>
               Use the website's internal navigation to move between the Home,
-              About, Blog, and Contact sections. These pages provide additional
-              information about Golo Game, gaming resources, mobile access,
-              account guidance, and available website support.
+              About, Blog, Download, and Contact sections. These pages provide
+              additional information about Golo Game, gaming resources, mobile
+              access, account guidance, and available website support.
             </p>
           </div>
         </article>
@@ -128,4 +133,3 @@ function InternalLinksArticle() {
 }
 
 export default InternalLinksArticle;
-

@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 function InternalLinksArticle() {
@@ -18,10 +17,10 @@ function InternalLinksArticle() {
 
           <div className="mt-5 space-y-5 text-base leading-8 text-gray-600">
             <p>
-              Explore the main Golo Games sections to learn more about
-              the <strong>Golo Game Platform</strong>, platform
-              information, gameplay concepts, mobile access, account
-              guidance, and useful gaming resources.
+              Explore the main Golo Games sections to learn more about the{" "}
+              <strong>Golo Game Platform</strong>, platform information,
+              gameplay concepts, mobile access, account guidance, and useful
+              gaming resources.
             </p>
 
             <p>
@@ -39,30 +38,42 @@ function InternalLinksArticle() {
             <p>
               Visitors researching the{" "}
               <strong>Golo Game Platform in Pakistan</strong> can explore
-              informational content about gameplay concepts, general
-              rules, mobile access, and platform features. Availability
-              and access requirements may vary by service and location.
+              informational content about gameplay concepts, general rules,
+              mobile access, and platform features. Availability and access
+              requirements may vary by service and location.
             </p>
 
             <p>
               Learn more about <strong>Golo Game gameplay</strong> through
-              the website's informational sections, including articles
-              about game mechanics, account security, and responsible
-              gaming. Outcomes may be uncertain, and no strategy
-              guarantees winnings.
+              the website's informational sections, including articles about
+              game mechanics, account security, and responsible gaming.
+              Outcomes may be uncertain, and no strategy guarantees winnings.
             </p>
 
             <p>
-              Visitors interested in gaming information and guides can
-              explore the{" "}
+              Visitors interested in gaming information and guides can explore
+              the{" "}
               <Link
                 to="/blog"
                 className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
               >
                 Golo Game Blog
               </Link>{" "}
-              for articles covering gameplay, mobile access, account
-              topics, and gaming safety.
+              for articles covering gameplay, mobile access, account topics,
+              and gaming safety.
+            </p>
+
+            <p>
+              Visitors looking for mobile access and download information can
+              visit the{" "}
+              <Link
+                to="/download"
+                className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+              >
+                Golo Game Download Guide
+              </Link>{" "}
+              for general information about mobile access, device compatibility,
+              and safe application installation practices.
             </p>
 
             <p>
@@ -78,28 +89,27 @@ function InternalLinksArticle() {
             </p>
 
             <p>
-              Visitors looking for app or mobile access information
-              should verify any application or download source before
-              installing software. App availability, compatibility,
-              and installation requirements may vary by device and region.
+              Visitors looking for app or mobile access information should
+              verify any application or download source before installing
+              software. App availability, compatibility, and installation
+              requirements may vary by device and region.
             </p>
 
             <p>
-              People researching real-money online games should review
-              the applicable rules, payment conditions, withdrawal
-              terms, and local legal requirements before participating.
-              Financial losses are possible, so never risk money you
-              cannot afford to lose.
+              People researching real-money online games should review the
+              applicable rules, payment conditions, withdrawal terms, and
+              local legal requirements before participating. Financial losses
+              are possible, so never risk money you cannot afford to lose.
             </p>
 
             <p>
-              These related sections help visitors navigate between the
-              Golo Game home page, About information, gaming guides, and
-              contact resources, making useful platform information
-              easier to discover.
+              These related sections help visitors navigate between the Golo
+              Game home page, About information, gaming guides, download
+              information, and contact resources, making useful platform
+              information easier to discover.
             </p>
 
-            {/* 15 RELATED ARTICLE TOPICS */}
+            {/* RELATED ARTICLE TOPICS */}
             <div className="border-t border-gray-300 pt-6">
               <h3 className="text-xl font-bold text-gray-900">
                 Golo Game Related Articles
@@ -138,4 +148,3 @@ function InternalLinksArticle() {
 }
 
 export default InternalLinksArticle;
-

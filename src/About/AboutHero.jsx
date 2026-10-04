@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 function AboutHero() {
@@ -99,4 +98,3 @@ function AboutHero() {
 }
 
 export default AboutHero;
-

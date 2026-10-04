@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 function InternalLinksArticle() {
@@ -73,6 +72,20 @@ function InternalLinksArticle() {
             </p>
 
             <p>
+              Visitors looking for mobile access and application
+              information can explore the{" "}
+              <Link
+                to="/download"
+                className="font-semibold text-yellow-600 underline decoration-yellow-400 underline-offset-4 hover:text-yellow-700"
+              >
+                Golo Game Download Guide
+              </Link>{" "}
+              for general information about mobile access, device
+              compatibility, application guidance, and related
+              resources.
+            </p>
+
+            <p>
               Visitors looking for{" "}
               <strong>Golo Game Contact Us</strong> information can use
               the contact form on this page to send a message. Include
@@ -89,10 +102,11 @@ function InternalLinksArticle() {
             </p>
 
             <p>
-              These internal links connect the Home, About, Blog, and
-              Contact sections of <strong>goloogames.com</strong>,
-              helping visitors navigate related Golo Game information
-              and find content relevant to their questions.
+              These internal links connect the Home, About, Blog,
+              Download, and Contact sections of{" "}
+              <strong>goloogames.com</strong>, helping visitors
+              navigate related Golo Game information and find content
+              relevant to their questions.
             </p>
           </div>
         </article>
@@ -102,4 +116,3 @@ function InternalLinksArticle() {
 }
 
 export default InternalLinksArticle;
-

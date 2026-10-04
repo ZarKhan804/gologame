@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 function HeroSection() {
@@ -37,6 +36,7 @@ function HeroSection() {
 
       {/* MAIN CONTENT */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-10">
+
         {/* GAME IMAGE */}
         <div className="relative mx-auto mb-5 w-full max-w-5xl">
           <div
@@ -69,6 +69,7 @@ function HeroSection() {
 
           {/* BUTTONS UNDER IMAGE */}
           <div className="relative z-20 mt-5 flex flex-col justify-center gap-3 sm:flex-row sm:gap-4">
+
             {/* ACCESS BUTTON */}
             <a
               href={gameReferralLink}
@@ -92,6 +93,7 @@ function HeroSection() {
 
         {/* HOME INFORMATION */}
         <div className="mx-auto max-w-5xl text-center">
+
           {/* LABEL */}
           <p className="mb-4 inline-flex rounded-full border border-yellow-500/30 bg-white/70 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em] text-yellow-700 shadow-sm backdrop-blur-sm">
             Golo Game Information & Guide
@@ -119,6 +121,7 @@ function HeroSection() {
 
           {/* INFORMATION CARDS */}
           <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-3">
+
             {/* CARD 1 */}
             <article className="rounded-2xl border border-gray-300/70 bg-white/70 p-5 text-left shadow-sm backdrop-blur-sm">
               <h2 className="text-sm font-extrabold text-gray-900">
@@ -160,11 +163,13 @@ function HeroSection() {
         {/* SUPPORTING CONTENT */}
         <div className="mt-10">
           <div className="mx-auto max-w-5xl rounded-2xl border border-gray-300 bg-white/60 p-6 text-center shadow-sm backdrop-blur-sm sm:p-8">
+
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
               Golo Game Information and Guides
             </h2>
 
             <div className="mt-6 grid gap-3 text-left sm:grid-cols-2">
+
               {/* LEFT SIDE */}
               <div className="space-y-3 text-sm leading-6 text-gray-700">
                 <p>1. Golo Game Platform Guide 2026</p>
@@ -202,4 +207,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-

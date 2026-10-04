@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function DownloadHero() {
   const gameReferralLink =
@@ -74,14 +75,14 @@ function DownloadHero() {
               Download Game
             </a>
 
-            {/* Learn More - Dummy Button */}
-            <button
-              type="button"
+            {/* Learn More */}
+            <Link
+              to="/about"
               aria-label="Learn more about Golo Game"
               className="inline-flex min-w-[180px] items-center justify-center rounded-xl border border-gray-300 bg-white/80 px-7 py-3.5 text-sm font-bold text-gray-800 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-yellow-50"
             >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -160,4 +161,3 @@ function DownloadHero() {
 }
 
 export default DownloadHero;
-

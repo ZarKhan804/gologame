@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const ContentSection = () => {
@@ -20,10 +19,9 @@ const ContentSection = () => {
             <p>
               <strong>Golo Game</strong> is a topic searched by visitors
               looking for information about online gaming platforms and
-              related game guides. On{" "}
-              <strong>Golo Games</strong>, visitors can explore platform
-              information, gameplay guides, mobile access details, and
-              general resources related to the{" "}
+              related game guides. On <strong>Golo Games</strong>, visitors
+              can explore platform information, gameplay guides, mobile
+              access details, and general resources related to the{" "}
               <strong>Golo Game Platform</strong>.
             </p>
 
@@ -49,21 +47,19 @@ const ContentSection = () => {
             <p>
               Users looking for <strong>Golo Game Mobile</strong> or app
               information should verify that any website or application
-              comes from a trustworthy source before installing it.
-              Review device compatibility, privacy information, account
-              security, payment conditions, and withdrawal terms where
-              applicable.
+              comes from a trustworthy source before installing it. Review
+              device compatibility, privacy information, account security,
+              payment conditions, and withdrawal terms where applicable.
             </p>
 
             <p>
               This website, <strong>goloogames.com</strong>, brings
               together <strong>Golo Game</strong> information, gaming
-              resources, mobile access guidance, and helpful articles
-              in one place. Before using any gaming service, review its
-              rules, terms, and local legal requirements. If a game
-              involves real money, remember that losses are possible
-              and only participate where legally permitted and within
-              limits you can afford.
+              resources, mobile access guidance, and helpful articles in
+              one place. Before using any gaming service, review its rules,
+              terms, and local legal requirements. If a game involves real
+              money, remember that losses are possible and only participate
+              where legally permitted and within limits you can afford.
             </p>
           </div>
         </article>
@@ -73,4 +69,3 @@ const ContentSection = () => {
 };
 
 export default ContentSection;
-
