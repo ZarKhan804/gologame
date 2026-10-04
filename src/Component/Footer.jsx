@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
-
   const footerLinks = [
     {
       name: "Home",
@@ -50,18 +49,13 @@ function Footer() {
   ];
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
     <footer className="bg-slate-950 text-white">
       <div className="mx-auto max-w-7xl px-6 pb-4 pt-12 lg:px-8">
-
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-
           {/* Brand / About */}
           <div className="lg:col-span-2">
             <NavLink
@@ -72,7 +66,7 @@ function Footer() {
             >
               <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-white shadow-lg shadow-yellow-400/20">
                 <img
-                  src="https://apkpkrs.com/wp-content/themes/apkpkrs-theme-V3.0.2-nzs/assets/img/brands/golo%20game.webp"
+                  src="https://www.apkpkrs.com/wp-content/themes/apkpkrs-theme-V3.0.2-nzs/assets/img/brands/golo%20game.webp"
                   alt="Golo Game logo"
                   width="48"
                   height="48"
@@ -81,26 +75,18 @@ function Footer() {
                   className="h-full w-full object-cover"
                 />
               </div>
-
               <div>
                 <span className="block text-xl font-extrabold leading-none">
-                  Golo
-                  <span className="text-yellow-400"> Game</span>
+                  Golo <span className="text-yellow-400"> Game</span>
                 </span>
-
                 <span className="mt-1 block text-[10px] uppercase tracking-[0.2em] text-slate-500">
                   Game Information & Guides
                 </span>
               </div>
             </NavLink>
-
             <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400">
-              Golo Game provides general information about the platform,
-              game features, gameplay guides, and mobile access. Explore
-              our articles to learn about platform navigation, account
-              security, and responsible gaming practices.
+              Golo Game provides general information about the platform, game features, gameplay guides, and mobile access. Explore our articles to learn about platform navigation, account security, and responsible gaming practices.
             </p>
-
             <div className="mt-6 grid max-w-xl gap-3 sm:grid-cols-3">
               <NavLink
                 to="/about"
@@ -110,7 +96,6 @@ function Footer() {
                   About Golo Game
                 </span>
               </NavLink>
-
               <NavLink
                 to="/blog"
                 className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition duration-300 hover:border-yellow-400/30 hover:bg-white/[0.06]"
@@ -119,7 +104,6 @@ function Footer() {
                   Golo Game Blog
                 </span>
               </NavLink>
-
               <NavLink
                 to="/contact"
                 className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition duration-300 hover:border-yellow-400/30 hover:bg-white/[0.06]"
@@ -136,7 +120,6 @@ function Footer() {
             <h2 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
               Quick Links
             </h2>
-
             <ul className="mt-5 space-y-3">
               {footerLinks.map((link) => (
                 <li key={link.path}>
@@ -157,7 +140,6 @@ function Footer() {
             <h2 className="text-sm font-bold uppercase tracking-wider text-yellow-400">
               Information
             </h2>
-
             <ul className="mt-5 space-y-3">
               {informationLinks.map((link) => (
                 <li key={`${link.path}-${link.name}`}>
@@ -179,7 +161,6 @@ function Footer() {
           <h2 className="text-sm font-bold text-white">
             Explore Golo Game
           </h2>
-
           <div className="mt-4 flex flex-wrap gap-x-5 gap-y-3">
             <NavLink
               to="/"
@@ -188,28 +169,24 @@ function Footer() {
             >
               Home
             </NavLink>
-
             <NavLink
               to="/about"
               className="text-sm text-slate-400 transition hover:text-yellow-400"
             >
               About Us
             </NavLink>
-
             <NavLink
               to="/blog"
               className="text-sm text-slate-400 transition hover:text-yellow-400"
             >
               Blog
             </NavLink>
-
             <NavLink
               to="/contact"
               className="text-sm text-slate-400 transition hover:text-yellow-400"
             >
               Contact Us
             </NavLink>
-
             <NavLink
               to="/download"
               className="text-sm text-slate-400 transition hover:text-yellow-400"
@@ -225,7 +202,6 @@ function Footer() {
           <p className="text-xs text-slate-500 sm:text-sm">
             © {currentYear} Golo Game. All rights reserved.
           </p>
-
           <div className="flex flex-wrap items-center gap-4 text-xs text-slate-500 sm:gap-5 sm:text-sm">
             <NavLink
               to="/about"
@@ -233,21 +209,18 @@ function Footer() {
             >
               About
             </NavLink>
-
             <NavLink
               to="/blog"
               className="transition duration-300 hover:text-yellow-400"
             >
               Blog
             </NavLink>
-
             <NavLink
               to="/contact"
               className="transition duration-300 hover:text-yellow-400"
             >
               Contact
             </NavLink>
-
             <NavLink
               to="/download"
               className="transition duration-300 hover:text-yellow-400"
@@ -259,11 +232,11 @@ function Footer() {
 
         <div className="mt-4 text-center text-xs text-slate-500">
           <a
-            href="https://goloogames.com/"
+            href="https://www.goloogames.com/"
             className="transition duration-300 hover:text-yellow-400"
             aria-label="Visit Golo Game website"
           >
-            goloogames.com
+            www.goloogames.com
           </a>
         </div>
 
