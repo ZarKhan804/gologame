@@ -22,7 +22,7 @@ function Blog() {
 
         <link
           rel="canonical"
-          href="https://goloogames.com/blog"
+          href="https://www.goloogames.com/blog"
         />
 
         <meta
@@ -37,7 +37,7 @@ function Blog() {
 
         <meta
           property="og:url"
-          content="https://goloogames.com/blog"
+          content="https://www.goloogames.com/blog"
         />
 
         <meta
@@ -47,7 +47,7 @@ function Blog() {
 
         <meta
           property="og:image"
-          content="https://goloogames.com/og-image.webp"
+          content="https://www.goloogames.com/og-image.webp"
         />
 
         <meta
@@ -62,7 +62,7 @@ function Blog() {
 
         <meta
           name="twitter:image"
-          content="https://goloogames.com/og-image.webp"
+          content="https://www.goloogames.com/og-image.webp"
         />
       </Helmet>
 

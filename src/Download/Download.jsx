@@ -22,7 +22,7 @@ function Download() {
 
         <link
           rel="canonical"
-          href="https://goloogames.com/download"
+          href="https://www.goloogames.com/download"
         />
 
         <meta
@@ -37,7 +37,7 @@ function Download() {
 
         <meta
           property="og:url"
-          content="https://goloogames.com/download"
+          content="https://www.goloogames.com/download"
         />
 
         <meta
@@ -47,7 +47,7 @@ function Download() {
 
         <meta
           property="og:image"
-          content="https://goloogames.com/og-image.webp"
+          content="https://www.goloogames.com/og-image.webp"
         />
 
         <meta
@@ -62,7 +62,7 @@ function Download() {
 
         <meta
           name="twitter:image"
-          content="https://goloogames.com/og-image.webp"
+          content="https://www.goloogames.com/og-image.webp"
         />
       </Helmet>
 

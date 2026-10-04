@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://goloogames.com/sitemap.xml
+Sitemap: https://www.goloogames.com/sitemap.xml

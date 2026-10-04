@@ -23,7 +23,7 @@ function Contact() {
 
         <link
           rel="canonical"
-          href="https://goloogames.com/contact"
+          href="https://www.goloogames.com/contact"
         />
 
         <meta
@@ -38,7 +38,7 @@ function Contact() {
 
         <meta
           property="og:url"
-          content="https://goloogames.com/contact"
+          content="https://www.goloogames.com/contact"
         />
 
         <meta
@@ -48,7 +48,7 @@ function Contact() {
 
         <meta
           property="og:image"
-          content="https://goloogames.com/og-image.webp"
+          content="https://www.goloogames.com/og-image.webp"
         />
 
         <meta
@@ -68,7 +68,7 @@ function Contact() {
 
         <meta
           name="twitter:image"
-          content="https://goloogames.com/og-image.webp"
+          content="https://www.goloogames.com/og-image.webp"
         />
       </Helmet>
 
