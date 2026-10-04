@@ -1,5 +1,5 @@
-
 import { Helmet } from "react-helmet-async";
+
 import AboutHero from "./AboutHero";
 import AboutContent from "./AboutContent";
 import InternalLinksArticle from "./InternalLinksArticle";
@@ -17,7 +17,7 @@ function About() {
 
         <meta
           name="robots"
-          content="index, follow, max-image-preview:large"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
 
         <link
@@ -40,10 +40,33 @@ function About() {
           content="https://goloogames.com/about"
         />
 
-        <meta property="og:type" content="website" />
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <meta
+          property="og:image"
+          content="https://goloogames.com/og-image.webp"
+        />
+
+        <meta
+          name="twitter:title"
+          content="About Golo Game | Platform Information & Game Guide"
+        />
+
+        <meta
+          name="twitter:description"
+          content="Explore Golo Game platform information, mobile access guidance, account security, and responsible gaming resources."
+        />
+
+        <meta
+          name="twitter:image"
+          content="https://goloogames.com/og-image.webp"
+        />
       </Helmet>
 
-      <main>
+      <main id="main-content">
         <AboutHero />
         <AboutContent />
         <InternalLinksArticle />
@@ -53,4 +76,3 @@ function About() {
 }
 
 export default About;
-

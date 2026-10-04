@@ -1,5 +1,5 @@
-
 import { Helmet } from "react-helmet-async";
+
 import BlogHero from "./BlogHero";
 import BlogPosts from "./BlogPosts";
 import InternalLinksArticle from "./InternalLinksArticle";
@@ -17,7 +17,7 @@ function Blog() {
 
         <meta
           name="robots"
-          content="index, follow, max-image-preview:large"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
 
         <link
@@ -40,10 +40,33 @@ function Blog() {
           content="https://goloogames.com/blog"
         />
 
-        <meta property="og:type" content="website" />
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <meta
+          property="og:image"
+          content="https://goloogames.com/og-image.webp"
+        />
+
+        <meta
+          name="twitter:title"
+          content="Golo Game Blog | Game Guides & Platform Information"
+        />
+
+        <meta
+          name="twitter:description"
+          content="Explore Golo Game platform guides, mobile access information, account security tips, and responsible gaming resources."
+        />
+
+        <meta
+          name="twitter:image"
+          content="https://goloogames.com/og-image.webp"
+        />
       </Helmet>
 
-      <main>
+      <main id="main-content">
         <BlogHero />
         <BlogPosts />
         <InternalLinksArticle />
@@ -53,4 +76,3 @@ function Blog() {
 }
 
 export default Blog;
-

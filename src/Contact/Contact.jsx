@@ -1,5 +1,5 @@
-
 import { Helmet } from "react-helmet-async";
+
 import ContactHero from "./ContactHero";
 import ContactForm from "./ContactForm";
 import InternalLinksArticle from "./InternalLinksArticle";
@@ -18,7 +18,7 @@ function Contact() {
 
         <meta
           name="robots"
-          content="index, follow, max-image-preview:large"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
 
         <link
@@ -41,10 +41,33 @@ function Contact() {
           content="https://goloogames.com/contact"
         />
 
-        <meta property="og:type" content="website" />
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <meta
+          property="og:image"
+          content="https://goloogames.com/og-image.webp"
+        />
+
+        <meta
+          name="twitter:title"
+          content="Contact Golo Game | Support & Assistance"
+        />
+
+        <meta
+          name="twitter:description"
+          content="Find Golo Game contact information, website guidance, account security tips, and answers to general gaming-related questions."
+        />
+
+        <meta
+          name="twitter:image"
+          content="https://goloogames.com/og-image.webp"
+        />
       </Helmet>
 
-      <main>
+      <main id="main-content">
         <ContactHero />
         <ContactForm />
         <InternalLinksArticle />
@@ -55,4 +78,3 @@ function Contact() {
 }
 
 export default Contact;
-

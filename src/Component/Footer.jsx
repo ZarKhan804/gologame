@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 
 function Footer() {
@@ -21,6 +20,10 @@ function Footer() {
       name: "Contact Us",
       path: "/contact",
     },
+    {
+      name: "Download",
+      path: "/download",
+    },
   ];
 
   const informationLinks = [
@@ -40,6 +43,10 @@ function Footer() {
       name: "Contact Golo Game",
       path: "/contact",
     },
+    {
+      name: "Download Guide",
+      path: "/download",
+    },
   ];
 
   const scrollToTop = () => {
@@ -51,9 +58,10 @@ function Footer() {
 
   return (
     <footer className="bg-slate-950 text-white">
-      {/* Main Footer */}
       <div className="mx-auto max-w-7xl px-6 pb-4 pt-12 lg:px-8">
+
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+
           {/* Brand / About */}
           <div className="lg:col-span-2">
             <NavLink
@@ -93,7 +101,6 @@ function Footer() {
               security, and responsible gaming practices.
             </p>
 
-            {/* Internal Content Links */}
             <div className="mt-6 grid max-w-xl gap-3 sm:grid-cols-3">
               <NavLink
                 to="/about"
@@ -202,13 +209,18 @@ function Footer() {
             >
               Contact Us
             </NavLink>
+
+            <NavLink
+              to="/download"
+              className="text-sm text-slate-400 transition hover:text-yellow-400"
+            >
+              Download
+            </NavLink>
           </div>
         </div>
 
-        {/* Divider */}
         <div className="my-7 h-px bg-white/10" />
 
-        {/* Bottom */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-500 sm:text-sm">
             © {currentYear} Golo Game. All rights reserved.
@@ -235,10 +247,16 @@ function Footer() {
             >
               Contact
             </NavLink>
+
+            <NavLink
+              to="/download"
+              className="transition duration-300 hover:text-yellow-400"
+            >
+              Download
+            </NavLink>
           </div>
         </div>
 
-        {/* Domain */}
         <div className="mt-4 text-center text-xs text-slate-500">
           <a
             href="https://goloogames.com/"
@@ -249,7 +267,6 @@ function Footer() {
           </a>
         </div>
 
-        {/* Back To Top */}
         <div className="mt-5 flex justify-center sm:justify-end">
           <button
             type="button"
@@ -266,4 +283,3 @@ function Footer() {
 }
 
 export default Footer;
-

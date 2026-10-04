@@ -1,5 +1,5 @@
-
 import { Helmet } from "react-helmet-async";
+
 import DownloadHero from "./DownloadHero";
 import InternalLinksArticle from "./InternalLinksArticle";
 import Article from "./Article";
@@ -17,7 +17,7 @@ function Download() {
 
         <meta
           name="robots"
-          content="index, follow, max-image-preview:large"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
 
         <link
@@ -40,10 +40,33 @@ function Download() {
           content="https://goloogames.com/download"
         />
 
-        <meta property="og:type" content="website" />
+        <meta
+          property="og:type"
+          content="website"
+        />
+
+        <meta
+          property="og:image"
+          content="https://goloogames.com/og-image.webp"
+        />
+
+        <meta
+          name="twitter:title"
+          content="Golo Game Download Guide | Mobile Access Information"
+        />
+
+        <meta
+          name="twitter:description"
+          content="Learn about Golo Game mobile access, application information, device compatibility, account guidance, and general gaming resources."
+        />
+
+        <meta
+          name="twitter:image"
+          content="https://goloogames.com/og-image.webp"
+        />
       </Helmet>
 
-      <main>
+      <main id="main-content">
         <DownloadHero />
         <InternalLinksArticle />
         <Article />
@@ -53,4 +76,3 @@ function Download() {
 }
 
 export default Download;
-

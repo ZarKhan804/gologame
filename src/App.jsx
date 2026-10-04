@@ -12,7 +12,6 @@ import Blog from "./Blog/Blog";
 import Contact from "./Contact/Contact";
 import Download from "./Download/Download";
 
-// Scroll to top whenever the route changes
 function ScrollToTop() {
   const { pathname } = useLocation();
 

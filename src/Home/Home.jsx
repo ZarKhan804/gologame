@@ -1,5 +1,5 @@
-
 import { Helmet } from "react-helmet-async";
+
 import HeroSection from "./HeroSection";
 import GameSection from "./GameSection";
 import ContentSection from "./ContentSection";
@@ -18,7 +18,7 @@ function Home() {
 
         <meta
           name="robots"
-          content="index, follow, max-image-preview:large"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
 
         <link
@@ -28,12 +28,12 @@ function Home() {
 
         <meta
           property="og:title"
-          content="Golo Game Online | Golo Games"
+          content="Golo Game Online | Golo Games Official Website"
         />
 
         <meta
           property="og:description"
-          content="Explore Golo Game platform information, game features, mobile access, and helpful gameplay guides."
+          content="Explore Golo Game platform information, game features, mobile access, gameplay guides, account security, and responsible gaming resources."
         />
 
         <meta
@@ -45,9 +45,29 @@ function Home() {
           property="og:type"
           content="website"
         />
+
+        <meta
+          property="og:image"
+          content="https://goloogames.com/og-image.webp"
+        />
+
+        <meta
+          name="twitter:title"
+          content="Golo Game Online | Golo Games Official Website"
+        />
+
+        <meta
+          name="twitter:description"
+          content="Explore Golo Game platform information, game features, mobile access, gameplay guides, account security, and responsible gaming resources."
+        />
+
+        <meta
+          name="twitter:image"
+          content="https://goloogames.com/og-image.webp"
+        />
       </Helmet>
 
-      <main>
+      <main id="main-content">
         <HeroSection />
         <GameSection />
         <ContentSection />
@@ -58,4 +78,3 @@ function Home() {
 }
 
 export default Home;
-

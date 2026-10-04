@@ -37,7 +37,6 @@ function Header() {
 
   return (
     <>
-      {/* Skip Navigation */}
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-yellow-400 focus:px-4 focus:py-2 focus:font-bold focus:text-slate-950"
@@ -53,13 +52,13 @@ function Header() {
             to="/"
             end
             onClick={closeMenu}
-            aria-label="Royal X Casino home page"
+            aria-label="Golo Game home page"
             className="group flex items-center gap-3"
           >
             <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-white shadow-lg shadow-yellow-400/20 transition duration-300 group-hover:scale-105">
               <img
                 src={logoImage}
-                alt="Royal X Casino logo"
+                alt="Golo Game logo"
                 width="48"
                 height="48"
                 loading="eager"
@@ -166,13 +165,12 @@ function Header() {
               ))}
             </div>
 
-            {/* Mobile Download */}
             <NavLink
               to="/download"
               onClick={closeMenu}
               className="mt-4 flex items-center justify-center rounded-xl bg-yellow-400 px-5 py-3 font-bold text-slate-950 transition duration-300 hover:bg-yellow-300"
             >
-             Play Now
+              Play Now
             </NavLink>
           </nav>
         </div>
