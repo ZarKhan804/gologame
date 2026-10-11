@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContentSection = () => {
+const AboutContent = () => {
   return (
     <section
       aria-labelledby="golo-game-platform-overview"
@@ -68,4 +68,4 @@ const ContentSection = () => {
   );
 };
 
-export default ContentSection;
+export default AboutContent;
