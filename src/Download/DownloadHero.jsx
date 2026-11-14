@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function DownloadHero() {
   const gameReferralLink =
-    "https://gologame.com?code=12069703";
+    "https://gologame.com?code=7694563";
 
   const gameImage =
     "https://apkprice.pk/wp-content/uploads/2026/04/21f44f61-91a9-49dd-a86c-345413524fc8.webp";
